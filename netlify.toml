@@ -1,0 +1,12 @@
+[build]
+  publish = "."
+  command = "echo 'PHP ready'"
+
+[[redirects]]
+  from = "/*"
+  to = "/chatgpt.php"
+  status = 200
+  force = false
+
+[functions]
+  directory = "."
